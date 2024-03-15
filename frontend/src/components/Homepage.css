@@ -1,0 +1,57 @@
+.postcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.posts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+    gap: 40px;
+}
+
+
+.post{
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    min-width: 250px;
+    width: min-content;
+    transition: transform 0.2s ease;
+}
+
+.edpost:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+.posts hr {
+    margin: 0px;
+}
+
+.post h3,p {
+    margin: 10px 0px;
+    padding: 0px 15px;
+}
+
+.posts button{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.post p{
+    min-height: 100px;
+}
+
+.g5{
+    gap: 5px;
+}
+.g10{
+    gap: 10px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}

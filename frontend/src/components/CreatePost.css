@@ -1,0 +1,31 @@
+.dfl{
+display: flex;
+} 
+.fdc{
+flex-direction: column;
+}
+.aic{
+    align-items: center;
+}
+.jcc{
+    justify-content: center;
+}
+.btn{
+    width: fit-content;
+    padding: 5px;
+}
+.crpostcontainer input, textarea{   
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+
+.g20{
+    gap: 20px;
+}
+
+.newcontainer input, textarea {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,12 @@
+.aboutcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.vid{
+    width: 60%;
+    height: 40%;
+}
